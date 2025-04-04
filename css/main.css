@@ -310,13 +310,15 @@ color: #F67E7E;
     letter-spacing: 0px;
 }
 .build-list{
-    width: 327px;
+width: 327px;
 height: 693px;
 top: 883px;
 left: 24px;
 
 }
 .build-item{
+    display: flex;
+    flex-direction: column;
     width: 327px;
     height: 199px;
     top: 883px;

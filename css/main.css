@@ -269,6 +269,66 @@ color: #F67E7E;
 .build-title-wrapper{
      display: flex; 
 }
+
+
+/*build section tablet start*/
+@media (max-width:768px){
+    .build{
+        display: flex;
+        flex-direction: column;
+    }
+    .build-title-wrapper, .build-item-content-wrapper{
+        width: 100%;
+    }
+    .build-title-wrapper{
+        display: block;
+    }
+    .build-title{
+        width: 445px;
+
+    }
+    .build-list{
+        width: 573px;
+    }
+
+}
+/*build section tablet end*/
+
+/*build  mobile start*/
+@media (max-width:583px){
+    .build{
+        text-align: center;
+        width: 327px;
+        height: 693px;
+        top: 883px;
+        left: 24px;
+        }
+    .buid-title{
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 32px;
+    letter-spacing: 0px;
+}
+.build-list{
+    width: 327px;
+height: 693px;
+top: 883px;
+left: 24px;
+
+}
+.build-item{
+    width: 327px;
+    height: 199px;
+    top: 883px;
+    left: 24px;
+    
+}
+.build-item-img{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+}
 /*stories style*/
 .stories-section{
     padding: 140px 0;
